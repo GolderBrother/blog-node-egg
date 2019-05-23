@@ -9,8 +9,8 @@
 /coverage
 
 # production
-/logs
-/run
+# /logs
+# /run
 /build
 
 # misc

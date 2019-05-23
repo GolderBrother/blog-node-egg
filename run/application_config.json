@@ -1,0 +1,596 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 1440000,
+      "key": "blog_node_egg_cookie",
+      "httpOnly": true,
+      "encrypt": true,
+      "name": "session_id",
+      "renew": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:3000"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\lib\\onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-session@3.1.0@egg-session\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-security@2.5.0@egg-security\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-schedule@3.6.2@egg-schedule\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-multipart@2.5.0@egg-multipart\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-development@2.4.3@egg-development\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-mongoose@3.1.3@egg-mongoose\\config\\locales",
+        "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\locales",
+        "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-cors@2.2.0@egg-cors\\config\\locales",
+        "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_mongoose-auto-increment@5.0.1@mongoose-auto-increment\\config\\locales",
+        "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-router-plus@1.3.0@egg-router-plus\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\locales",
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\lib\\event-sources\\development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\blog-node-egg",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": [
+        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "ejs",
+      "mapping": {}
+    },
+    "mongoose": {
+      "url": "",
+      "options": {},
+      "loadModel": true,
+      "app": true,
+      "agent": false,
+      "client": {
+        "url": "mongodb://127.0.0.1:27017/blogNode",
+        "options": {
+          "useNewUrlParser": true,
+          "useFindAndModify": false,
+          "useCreateIndex": true,
+          "poolSize": 40,
+          "reconnectTries": 10,
+          "reconnectInterval": 500
+        }
+      }
+    },
+    "ejs": {
+      "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view",
+      "cache": false,
+      "debug": false,
+      "compileDebug": true,
+      "delimiter": null,
+      "strict": false
+    },
+    "cors": {
+      "origin": "*",
+      "credentials": true,
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
+    },
+    "env": "local",
+    "name": "blog-node-egg",
+    "keys": "<String len: 32>",
+    "proxy": false,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "blog-node-egg",
+      "version": "1.0.0",
+      "description": "The server for blog",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "egg-bin dev",
+        "start": "npm run dev",
+        "nodemon": "nodemon app.js --name test"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/GolderBrother"
+      },
+      "keywords": [
+        "blog-node-egg"
+      ],
+      "author": "james.zhang",
+      "license": "ISC",
+      "dependencies": {
+        "bcrypt": "^3.0.6",
+        "consola": "^2.6.2",
+        "crypto": "^1.0.1",
+        "egg": "^2.22.2",
+        "egg-cors": "^2.2.0",
+        "egg-mongoose": "^3.1.3",
+        "egg-router-plus": "^1.3.0",
+        "egg-scripts": "^2.11.0",
+        "egg-session": "^3.1.0",
+        "egg-view-ejs": "^2.0.0",
+        "mongoose-auto-increment": "^5.0.1",
+        "node-fetch": "^2.6.0",
+        "nodemon": "^1.19.0",
+        "yargs": "^13.2.4"
+      },
+      "devDependencies": {
+        "egg-bin": "^4.13.0"
+      }
+    },
+    "baseDir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg",
+    "HOME": "C:\\Users\\Administrator",
+    "rundir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "INFO",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "blog-node-egg-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "cors",
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 3000,
+        "hostname": "127.0.0.1"
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [],
+    "session_secret": "<String len: 20>",
+    "debug": true,
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-session@3.1.0@egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-security@2.5.0@egg-security",
+      "version": "2.5.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-i18n@2.1.1@egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-watcher@3.1.0@egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-schedule@3.6.2@egg-schedule",
+      "version": "3.6.2"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-multipart@2.5.0@egg-multipart",
+      "version": "2.5.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-development@2.4.3@egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-static@2.2.0@egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg@2.22.2@egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-view@2.1.2@egg-view",
+      "version": "2.1.2"
+    },
+    "mongoose": {
+      "enabled": true,
+      "package": "egg-mongoose",
+      "enable": true,
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-mongoose@3.1.3@egg-mongoose",
+      "version": "3.1.3"
+    },
+    "ejs": {
+      "enable": true,
+      "package": "egg-view-ejs",
+      "name": "ejs",
+      "dependencies": [
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs",
+      "version": "2.0.0"
+    },
+    "cors": {
+      "enabled": true,
+      "package": "egg-cors",
+      "enable": true,
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-cors@2.2.0@egg-cors",
+      "version": "2.2.0"
+    },
+    "autoIncrement": {
+      "enabled": true,
+      "package": "mongoose-auto-increment",
+      "enable": true,
+      "name": "autoIncrement",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_mongoose-auto-increment@5.0.1@mongoose-auto-increment",
+      "version": "5.0.1"
+    },
+    "routerPlus": {
+      "enable": true,
+      "package": "egg-router-plus",
+      "name": "routerPlus",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
+      "path": "f:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\_egg-router-plus@1.3.0@egg-router-plus",
+      "version": "1.3.0"
+    }
+  }
+}

@@ -21,7 +21,7 @@ class ArticlesController extends BaseController {
       type,
       origin
     } = ctx.request.body;
-    const result = await ctx.services.articles.addArticle({
+    const result = await ctx.service.articles.addArticle({
       title,
       author,
       keyword,

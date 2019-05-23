@@ -604,8 +604,8 @@ class ArticlesService extends Service {
         try {
             let {
                 id = '',
-                type = null,
-                filter = null
+                    type = null,
+                    filter = null
             } = options;
             type = Number(type) || 1; //文章类型 => 1: 普通文章，2: 简历，3: 管理员介绍
             filter = Number(filter) || 1; //文章的评论过滤 => 1: 过滤，2: 不过滤
@@ -619,115 +619,46 @@ class ArticlesService extends Service {
                 }
                 await new Promise((resolve, reject) => {
                     Article.findOne({
-                        _id: id
-                    }, async (error, data) => {
-                        if (error) {
-                            console.error('error:' + error);
-                            throw new Error(error);
-                        } else {
-                            if(data && data.meta) data.meta.views = data.meta.views + 1;
-                            try {
-                                const result = await Article.updateOne({
-                                    _id: id
-                                }, {
-                                    meta: data.meta
-                                });
-                                // console.log('data:',data)
-                                if (filter === 1) {
-                                    const arr = data.comments;
-                                    for (let i = arr.length - 1; i >= 0; i--) {
-                                        const e = arr[i];
-                                        if (e.state !== 1) {
-                                            arr.splice(i, 1);
-                                        }
-                                        const newArr = e.other_comments;
-                                        const length = newArr.length;
-                                        if (length) {
-                                            for (let j = length - 1; j >= 0; j--) {
-                                                const item = newArr[j];
-                                                if (item.state !== 1) {
-                                                    newArr.splice(j, 1);
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                                res["httpCode"] = 200;
-                                res["code"] = 0;
-                                res["message"] = '操作成功';
-                                res["data"] = data;
-                                // resolve(res);
-                            } catch (error) {
-                                throw new Error(error);
-                            }
-                        }
-                        resolve(res);
-                    })
-                    .populate([{
-                        path: 'tags'
-                    }, {
-                        path: 'category'
-                    }, {
-                        path: 'comments'
-                    }])
-                    .exec((err, doc) => {
-                        console.log("err:", err);          // aikin
-                        console.log("doc.tags:",doc.tags);          // aikin
-                        console.log("doc.category:",doc.category);           // undefined
-                    });
-                });
-            } else {
-                try {
-                    await new Promise((resolve, reject) => {
-                        Article.findOne({
-                            type
+                            _id: id
                         }, async (error, data) => {
                             if (error) {
+                                console.error('error:' + error);
                                 throw new Error(error);
-                                // reject(error);
-                                // return utils.handleError(res, error);
                             } else {
-                                if (data) {
-                                    if(data.meta) {
-                                        data.meta.views = data.meta.views + 1; 
-                                    }
-                                    try {
-                                        const result = await Article.updateOne({
-                                            type
-                                        }, {
-                                            meta: data.meta
-                                        });
-                                        if (filter === 1) {
-                                            const arr = data.comments;
-                                            for (let i = arr.length - 1; i >= 0; i--) {
-                                                const e = arr[i];
-                                                if (e.state !== 1) {
-                                                    arr.splice(i, 1);
-                                                }
-                                                const newArr = e.other_comments;
-                                                const length = newArr.length;
-                                                if (length) {
-                                                    for (let j = length - 1; j >= 0; j--) {
-                                                        const item = newArr[j];
-                                                        if (item.state !== 1) {
-                                                            newArr.splice(j, 1);
-                                                        }
+                                if (data && data.meta) data.meta.views = data.meta.views + 1;
+                                try {
+                                    const result = await Article.updateOne({
+                                        _id: id
+                                    }, {
+                                        meta: data.meta
+                                    });
+                                    // console.log('data:',data)
+                                    if (filter === 1) {
+                                        const arr = data.comments;
+                                        for (let i = arr.length - 1; i >= 0; i--) {
+                                            const e = arr[i];
+                                            if (e.state !== 1) {
+                                                arr.splice(i, 1);
+                                            }
+                                            const newArr = e.other_comments;
+                                            const length = newArr.length;
+                                            if (length) {
+                                                for (let j = length - 1; j >= 0; j--) {
+                                                    const item = newArr[j];
+                                                    if (item.state !== 1) {
+                                                        newArr.splice(j, 1);
                                                     }
                                                 }
                                             }
                                         }
-                                        res["httpCode"] = 200;
-                                        res["code"] = 0;
-                                        res["message"] = '操作成功';
-                                        res["data"] = data;
-                                    } catch (error) {
-                                        throw new Error(error);
                                     }
-                                } else {
                                     res["httpCode"] = 200;
-                                    res["code"] = 1;
-                                    res["message"] = '文章不存在';
-                                    // return res;  
+                                    res["code"] = 0;
+                                    res["message"] = '操作成功';
+                                    res["data"] = data;
+                                    // resolve(res);
+                                } catch (error) {
+                                    throw new Error(error);
                                 }
                             }
                             resolve(res);
@@ -740,11 +671,88 @@ class ArticlesService extends Service {
                             path: 'comments'
                         }])
                         .exec((err, doc) => {
-                            console.log("err:", err);          // aikin
-                            console.log("doc.tags:",doc.tags);          // aikin
-                            console.log("doc.category:",doc.category);           // undefined
+                            if (err) {
+                                console.log("err:", err);
+                            }
+                            if (doc) {
+                                console.log("doc.tags:", doc.tags);
+                                console.log("doc.category:", doc.category);
+                            }
                         });
-                        resolve(res);
+                });
+            } else {
+                try {
+                    await new Promise((resolve, reject) => {
+                        Article.findOne({
+                                type
+                            }, async (error, data) => {
+                                if (error) {
+                                    throw new Error(error);
+                                    // reject(error);
+                                    // return utils.handleError(res, error);
+                                } else {
+                                    if (data) {
+                                        if (data.meta) {
+                                            data.meta.views = data.meta.views + 1;
+                                        }
+                                        try {
+                                            const result = await Article.updateOne({
+                                                type
+                                            }, {
+                                                meta: data.meta
+                                            });
+                                            if (filter === 1) {
+                                                const arr = data.comments;
+                                                for (let i = arr.length - 1; i >= 0; i--) {
+                                                    const e = arr[i];
+                                                    if (e.state !== 1) {
+                                                        arr.splice(i, 1);
+                                                    }
+                                                    const newArr = e.other_comments;
+                                                    const length = newArr.length;
+                                                    if (length) {
+                                                        for (let j = length - 1; j >= 0; j--) {
+                                                            const item = newArr[j];
+                                                            if (item.state !== 1) {
+                                                                newArr.splice(j, 1);
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            res["httpCode"] = 200;
+                                            res["code"] = 0;
+                                            res["message"] = '操作成功';
+                                            res["data"] = data;
+                                        } catch (error) {
+                                            throw new Error(error);
+                                        }
+                                    } else {
+                                        res["httpCode"] = 200;
+                                        res["code"] = 1;
+                                        res["message"] = '文章不存在';
+                                        // return res;  
+                                    }
+                                }
+                                console.log(res);
+                                resolve(res);
+                            })
+                            .populate([{
+                                path: 'tags'
+                            }, {
+                                path: 'category'
+                            }, {
+                                path: 'comments'
+                            }])
+                            .exec((err, doc) => {
+                                if (err) {
+                                    console.log("err:", err);
+                                }
+                                if (doc) {
+                                    console.log("doc.tags:", doc.tags);
+                                    console.log("doc.category:", doc.category);
+                                }
+                            });
                     });
                 } catch (error) {
                     console.log(error);
