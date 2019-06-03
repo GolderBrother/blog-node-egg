@@ -24970,3 +24970,374 @@ hostname: USER-20160312QE
 2019-05-23 23:20:21,127 INFO 12172 [egg-mongoose] instance[0] start successfully
 2019-05-23 23:20:21,142 INFO 12172 [egg-watcher:application] watcher start success
 2019-05-23 23:20:21,198 INFO 12172 [egg:core] dump config after ready, 44ms
+2019-05-26 16:18:24,370 INFO 20476 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 16:18:25,044 INFO 20476 [egg-multipart] stream mode enable
+2019-05-26 16:19:03,187 INFO 20476 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-26 16:19:27,976 INFO 20476 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-26 16:19:27,986 INFO 20476 [egg-security] use methodnoallow middleware
+2019-05-26 16:19:28,003 INFO 20476 [egg-security] use noopen middleware
+2019-05-26 16:19:28,131 INFO 20476 [egg-security] use nosniff middleware
+2019-05-26 16:19:28,133 INFO 20476 [egg-security] use xssProtection middleware
+2019-05-26 16:19:28,134 INFO 20476 [egg-security] use xframe middleware
+2019-05-26 16:19:28,135 INFO 20476 [egg-security] use dta middleware
+2019-05-26 16:19:28,135 INFO 20476 [egg-security] compose 6 middlewares into one security middleware
+2019-05-26 16:19:29,785 INFO 20476 [egg:core] dump config after load, 177ms
+2019-05-26 16:19:30,130 INFO 20476 [egg-mongoose] starting...
+2019-05-26 16:18:44,096 INFO 18568 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 16:18:44,899 INFO 18568 [egg-multipart] stream mode enable
+2019-05-26 16:19:03,109 INFO 18568 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-26 16:19:27,976 INFO 18568 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-26 16:19:28,112 INFO 18568 [egg-security] use methodnoallow middleware
+2019-05-26 16:19:28,115 INFO 18568 [egg-security] use noopen middleware
+2019-05-26 16:19:28,118 INFO 18568 [egg-security] use nosniff middleware
+2019-05-26 16:19:28,122 INFO 18568 [egg-security] use xssProtection middleware
+2019-05-26 16:19:28,125 INFO 18568 [egg-security] use xframe middleware
+2019-05-26 16:19:28,128 INFO 18568 [egg-security] use dta middleware
+2019-05-26 16:19:28,128 INFO 18568 [egg-security] compose 6 middlewares into one security middleware
+2019-05-26 16:19:29,764 INFO 18568 [egg:core] dump config after load, 159ms
+2019-05-26 16:19:29,771 INFO 18568 [egg-mongoose] starting...
+2019-05-26 16:19:32,836 INFO 18568 [egg-watcher:application] watcher start success
+2019-05-26 16:19:32,867 INFO 18568 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-26 16:19:32,933 INFO 18568 [egg-mongoose] instance[0] start successfully
+2019-05-26 16:19:33,589 INFO 18568 [egg:core] dump config after ready, 590ms
+2019-05-26 16:22:31,061 INFO 15700 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 16:22:31,162 INFO 15700 [egg-multipart] stream mode enable
+2019-05-26 16:22:32,274 INFO 15700 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-26 16:22:32,792 INFO 15700 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-26 16:22:32,800 INFO 15700 [egg-security] use methodnoallow middleware
+2019-05-26 16:22:32,801 INFO 15700 [egg-security] use noopen middleware
+2019-05-26 16:22:32,805 INFO 15700 [egg-security] use nosniff middleware
+2019-05-26 16:22:32,806 INFO 15700 [egg-security] use xssProtection middleware
+2019-05-26 16:22:32,807 INFO 15700 [egg-security] use xframe middleware
+2019-05-26 16:22:32,808 INFO 15700 [egg-security] use dta middleware
+2019-05-26 16:22:32,808 INFO 15700 [egg-security] compose 6 middlewares into one security middleware
+2019-05-26 16:22:32,881 INFO 15700 [egg:core] dump config after load, 26ms
+2019-05-26 16:22:32,888 INFO 15700 [egg-mongoose] starting...
+2019-05-26 16:22:33,082 INFO 15700 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-26 16:22:33,132 INFO 15700 [egg-mongoose] instance[0] start successfully
+2019-05-26 16:22:33,146 INFO 15700 [egg-watcher:application] watcher start success
+2019-05-26 16:22:33,190 INFO 15700 [egg:core] dump config after ready, 32ms
+2019-05-26 19:12:55,650 WARN 15700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-26 19:12:56,307 WARN 15700 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 23:22:49,507 ERROR 15700 nodejs.ServerNoResponseError: server 127.0.0.1:51893 no response in 40002ms, maybe the socket is end on the other side. (address: 127.0.0.1:51893)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_tcp-base@3.1.0@tcp-base\lib\base.js:427:21)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ServerNoResponseError"
+pid: 15700
+hostname: USER-20160312QE
+
+2019-05-26 23:22:49,553 WARN 15700 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-26 23:22:49,768 ERROR 15700 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:15700)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 15700
+hostname: USER-20160312QE
+
+2019-05-26 23:23:26,879 INFO 13880 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 23:23:27,793 INFO 13880 [egg-multipart] stream mode enable
+2019-05-26 23:23:36,460 INFO 13880 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-26 23:23:43,398 INFO 13880 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-26 23:23:43,439 INFO 13880 [egg-security] use methodnoallow middleware
+2019-05-26 23:23:43,484 INFO 13880 [egg-security] use noopen middleware
+2019-05-26 23:23:43,489 INFO 13880 [egg-security] use nosniff middleware
+2019-05-26 23:23:43,507 INFO 13880 [egg-security] use xssProtection middleware
+2019-05-26 23:23:43,511 INFO 13880 [egg-security] use xframe middleware
+2019-05-26 23:23:43,514 INFO 13880 [egg-security] use dta middleware
+2019-05-26 23:23:43,515 INFO 13880 [egg-security] compose 6 middlewares into one security middleware
+2019-05-26 23:23:44,225 INFO 13880 [egg:core] dump config after load, 96ms
+2019-05-26 23:23:44,234 INFO 13880 [egg-mongoose] starting...
+2019-05-26 23:23:45,595 INFO 13880 [egg-watcher:application] watcher start success
+2019-05-26 23:23:45,646 INFO 13880 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-26 23:23:45,690 INFO 13880 [egg-mongoose] instance[0] start successfully
+2019-05-26 23:23:45,808 INFO 13880 [egg:core] dump config after ready, 85ms
+2019-05-26 23:23:58,173 INFO 43240 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-26 23:23:58,569 INFO 43240 [egg-multipart] stream mode enable
+2019-05-26 23:24:00,925 INFO 43240 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-26 23:24:02,411 INFO 43240 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-26 23:24:02,419 INFO 43240 [egg-security] use methodnoallow middleware
+2019-05-26 23:24:02,422 INFO 43240 [egg-security] use noopen middleware
+2019-05-26 23:24:02,427 INFO 43240 [egg-security] use nosniff middleware
+2019-05-26 23:24:02,429 INFO 43240 [egg-security] use xssProtection middleware
+2019-05-26 23:24:02,430 INFO 43240 [egg-security] use xframe middleware
+2019-05-26 23:24:02,432 INFO 43240 [egg-security] use dta middleware
+2019-05-26 23:24:02,432 INFO 43240 [egg-security] compose 6 middlewares into one security middleware
+2019-05-26 23:24:02,675 INFO 43240 [egg:core] dump config after load, 97ms
+2019-05-26 23:24:02,685 INFO 43240 [egg-mongoose] starting...
+2019-05-26 23:24:03,638 INFO 43240 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-26 23:24:03,784 INFO 43240 [egg-mongoose] instance[0] start successfully
+2019-05-26 23:24:03,808 INFO 43240 [egg-watcher:application] watcher start success
+2019-05-26 23:24:03,933 INFO 43240 [egg:core] dump config after ready, 108ms
+2019-05-27 21:55:44,015 INFO 19888 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 21:55:44,057 INFO 19888 [egg-multipart] stream mode enable
+2019-05-27 21:56:07,209 INFO 19888 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-27 21:56:13,430 INFO 19888 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-27 21:56:13,435 INFO 19888 [egg-security] use methodnoallow middleware
+2019-05-27 21:56:13,452 INFO 19888 [egg-security] use noopen middleware
+2019-05-27 21:56:13,461 INFO 19888 [egg-security] use nosniff middleware
+2019-05-27 21:56:13,464 INFO 19888 [egg-security] use xssProtection middleware
+2019-05-27 21:56:13,464 INFO 19888 [egg-security] use xframe middleware
+2019-05-27 21:56:13,464 INFO 19888 [egg-security] use dta middleware
+2019-05-27 21:56:13,464 INFO 19888 [egg-security] compose 6 middlewares into one security middleware
+2019-05-27 21:56:13,535 INFO 19888 [egg:core] dump config after load, 56ms
+2019-05-27 21:56:13,540 INFO 19888 [egg-mongoose] starting...
+2019-05-27 21:56:13,672 INFO 19888 [egg-watcher:application] watcher start success
+2019-05-27 21:58:26,586 INFO 19012 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-27 21:58:26,715 INFO 19012 [egg-multipart] stream mode enable
+2019-05-27 21:58:28,131 INFO 19012 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-27 21:58:28,891 INFO 19012 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-27 21:58:28,898 INFO 19012 [egg-security] use methodnoallow middleware
+2019-05-27 21:58:28,900 INFO 19012 [egg-security] use noopen middleware
+2019-05-27 21:58:28,903 INFO 19012 [egg-security] use nosniff middleware
+2019-05-27 21:58:28,904 INFO 19012 [egg-security] use xssProtection middleware
+2019-05-27 21:58:28,905 INFO 19012 [egg-security] use xframe middleware
+2019-05-27 21:58:28,906 INFO 19012 [egg-security] use dta middleware
+2019-05-27 21:58:28,906 INFO 19012 [egg-security] compose 6 middlewares into one security middleware
+2019-05-27 21:58:29,024 INFO 19012 [egg:core] dump config after load, 44ms
+2019-05-27 21:58:29,031 INFO 19012 [egg-mongoose] starting...
+2019-05-27 21:58:29,424 INFO 19012 [egg-watcher:application] watcher start success
+2019-05-27 21:58:29,448 INFO 19012 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-27 21:58:29,515 INFO 19012 [egg-mongoose] instance[0] start successfully
+2019-05-27 21:58:29,606 INFO 19012 [egg:core] dump config after ready, 71ms
+2019-05-28 22:23:20,230 INFO 19484 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-28 22:23:20,277 INFO 19484 [egg-multipart] stream mode enable
+2019-05-28 22:23:29,470 INFO 19484 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-28 22:23:34,256 INFO 19484 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-28 22:23:34,271 INFO 19484 [egg-security] use methodnoallow middleware
+2019-05-28 22:23:34,287 INFO 19484 [egg-security] use noopen middleware
+2019-05-28 22:23:34,287 INFO 19484 [egg-security] use nosniff middleware
+2019-05-28 22:23:34,303 INFO 19484 [egg-security] use xssProtection middleware
+2019-05-28 22:23:34,303 INFO 19484 [egg-security] use xframe middleware
+2019-05-28 22:23:34,303 INFO 19484 [egg-security] use dta middleware
+2019-05-28 22:23:34,303 INFO 19484 [egg-security] compose 6 middlewares into one security middleware
+2019-05-28 22:23:34,843 INFO 19484 [egg:core] dump config after load, 40ms
+2019-05-28 22:23:34,859 INFO 19484 [egg-mongoose] starting...
+2019-05-28 22:23:17,437 INFO 16528 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-28 22:23:17,521 INFO 16528 [egg-multipart] stream mode enable
+2019-05-28 22:23:29,470 INFO 16528 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-28 22:23:34,256 INFO 16528 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-28 22:23:34,271 INFO 16528 [egg-security] use methodnoallow middleware
+2019-05-28 22:23:34,287 INFO 16528 [egg-security] use noopen middleware
+2019-05-28 22:23:34,287 INFO 16528 [egg-security] use nosniff middleware
+2019-05-28 22:23:34,303 INFO 16528 [egg-security] use xssProtection middleware
+2019-05-28 22:23:34,303 INFO 16528 [egg-security] use xframe middleware
+2019-05-28 22:23:34,303 INFO 16528 [egg-security] use dta middleware
+2019-05-28 22:23:34,303 INFO 16528 [egg-security] compose 6 middlewares into one security middleware
+2019-05-28 22:23:34,843 INFO 16528 [egg:core] dump config after load, 40ms
+2019-05-28 22:23:34,859 INFO 16528 [egg-mongoose] starting...
+2019-05-28 22:25:26,936 INFO 8640 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-28 22:25:27,001 INFO 8640 [egg-multipart] stream mode enable
+2019-05-28 22:25:27,752 INFO 8640 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-05-28 22:25:28,255 INFO 8640 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-05-28 22:25:28,262 INFO 8640 [egg-security] use methodnoallow middleware
+2019-05-28 22:25:28,263 INFO 8640 [egg-security] use noopen middleware
+2019-05-28 22:25:28,266 INFO 8640 [egg-security] use nosniff middleware
+2019-05-28 22:25:28,266 INFO 8640 [egg-security] use xssProtection middleware
+2019-05-28 22:25:28,268 INFO 8640 [egg-security] use xframe middleware
+2019-05-28 22:25:28,269 INFO 8640 [egg-security] use dta middleware
+2019-05-28 22:25:28,269 INFO 8640 [egg-security] compose 6 middlewares into one security middleware
+2019-05-28 22:25:28,344 INFO 8640 [egg:core] dump config after load, 37ms
+2019-05-28 22:25:28,361 INFO 8640 [egg-mongoose] starting...
+2019-05-28 22:25:28,502 INFO 8640 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-05-28 22:25:28,534 INFO 8640 [egg-mongoose] instance[0] start successfully
+2019-05-28 22:25:28,542 INFO 8640 [egg-watcher:application] watcher start success
+2019-05-28 22:25:28,785 INFO 8640 [egg:core] dump config after ready, 236ms
+2019-06-03 22:10:52,653 INFO 16304 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:10:52,777 INFO 16304 [egg-multipart] stream mode enable
+2019-06-03 22:10:54,312 INFO 16304 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:10:55,024 INFO 16304 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:10:55,033 INFO 16304 [egg-security] use methodnoallow middleware
+2019-06-03 22:10:55,035 INFO 16304 [egg-security] use noopen middleware
+2019-06-03 22:10:55,039 INFO 16304 [egg-security] use nosniff middleware
+2019-06-03 22:10:55,040 INFO 16304 [egg-security] use xssProtection middleware
+2019-06-03 22:10:55,041 INFO 16304 [egg-security] use xframe middleware
+2019-06-03 22:10:55,042 INFO 16304 [egg-security] use dta middleware
+2019-06-03 22:10:55,042 INFO 16304 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:10:55,144 INFO 16304 [egg:core] dump config after load, 52ms
+2019-06-03 22:10:55,151 INFO 16304 [egg-mongoose] starting...
+2019-06-03 22:10:55,402 INFO 16304 [egg-watcher:application] watcher start success
+2019-06-03 22:10:55,443 INFO 16304 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:10:55,484 INFO 16304 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:10:55,540 INFO 16304 [egg:core] dump config after ready, 47ms
+2019-06-03 22:21:49,966 ERROR 16304 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:16304)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 16304
+hostname: USER-20160312QE
+
+2019-06-03 22:21:52,174 INFO 7832 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:21:52,236 INFO 7832 [egg-multipart] stream mode enable
+2019-06-03 22:21:52,770 INFO 7832 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:21:53,090 INFO 7832 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:21:53,095 INFO 7832 [egg-security] use methodnoallow middleware
+2019-06-03 22:21:53,096 INFO 7832 [egg-security] use noopen middleware
+2019-06-03 22:21:53,098 INFO 7832 [egg-security] use nosniff middleware
+2019-06-03 22:21:53,099 INFO 7832 [egg-security] use xssProtection middleware
+2019-06-03 22:21:53,099 INFO 7832 [egg-security] use xframe middleware
+2019-06-03 22:21:53,100 INFO 7832 [egg-security] use dta middleware
+2019-06-03 22:21:53,100 INFO 7832 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:21:53,146 INFO 7832 [egg:core] dump config after load, 19ms
+2019-06-03 22:21:53,152 INFO 7832 [egg-mongoose] starting...
+2019-06-03 22:21:53,269 INFO 7832 [egg-watcher:application] watcher start success
+2019-06-03 22:21:53,293 INFO 7832 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:21:53,361 INFO 7832 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:21:53,444 INFO 7832 [egg:core] dump config after ready, 64ms
+2019-06-03 22:21:57,587 INFO 16960 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:21:57,694 INFO 16960 [egg-multipart] stream mode enable
+2019-06-03 22:21:58,696 INFO 16960 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:21:59,081 INFO 16960 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:21:59,087 INFO 16960 [egg-security] use methodnoallow middleware
+2019-06-03 22:21:59,088 INFO 16960 [egg-security] use noopen middleware
+2019-06-03 22:21:59,094 INFO 16960 [egg-security] use nosniff middleware
+2019-06-03 22:21:59,095 INFO 16960 [egg-security] use xssProtection middleware
+2019-06-03 22:21:59,095 INFO 16960 [egg-security] use xframe middleware
+2019-06-03 22:21:59,096 INFO 16960 [egg-security] use dta middleware
+2019-06-03 22:21:59,096 INFO 16960 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:21:59,153 INFO 16960 [egg:core] dump config after load, 25ms
+2019-06-03 22:21:59,158 INFO 16960 [egg-mongoose] starting...
+2019-06-03 22:21:59,305 INFO 16960 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:21:59,423 INFO 16960 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:21:59,442 INFO 16960 [egg-watcher:application] watcher start success
+2019-06-03 22:21:59,497 INFO 16960 [egg:core] dump config after ready, 45ms
+2019-06-03 22:22:02,805 INFO 16456 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:22:02,989 INFO 16456 [egg-multipart] stream mode enable
+2019-06-03 22:22:04,707 INFO 16456 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:22:05,393 INFO 16456 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:22:05,404 INFO 16456 [egg-security] use methodnoallow middleware
+2019-06-03 22:22:05,406 INFO 16456 [egg-security] use noopen middleware
+2019-06-03 22:22:05,410 INFO 16456 [egg-security] use nosniff middleware
+2019-06-03 22:22:05,412 INFO 16456 [egg-security] use xssProtection middleware
+2019-06-03 22:22:05,413 INFO 16456 [egg-security] use xframe middleware
+2019-06-03 22:22:05,414 INFO 16456 [egg-security] use dta middleware
+2019-06-03 22:22:05,414 INFO 16456 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:22:05,532 INFO 16456 [egg:core] dump config after load, 45ms
+2019-06-03 22:22:05,541 INFO 16456 [egg-mongoose] starting...
+2019-06-03 22:22:05,808 INFO 16456 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:22:05,928 INFO 16456 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:22:05,939 INFO 16456 [egg-watcher:application] watcher start success
+2019-06-03 22:22:06,001 INFO 16456 [egg:core] dump config after ready, 45ms
+2019-06-03 22:22:20,693 ERROR 16456 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:16456)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 16456
+hostname: USER-20160312QE
+
+2019-06-03 22:22:25,316 INFO 14292 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:22:25,477 INFO 14292 [egg-multipart] stream mode enable
+2019-06-03 22:22:26,690 INFO 14292 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:22:27,329 INFO 14292 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:22:27,334 INFO 14292 [egg-security] use methodnoallow middleware
+2019-06-03 22:22:27,335 INFO 14292 [egg-security] use noopen middleware
+2019-06-03 22:22:27,339 INFO 14292 [egg-security] use nosniff middleware
+2019-06-03 22:22:27,340 INFO 14292 [egg-security] use xssProtection middleware
+2019-06-03 22:22:27,341 INFO 14292 [egg-security] use xframe middleware
+2019-06-03 22:22:27,342 INFO 14292 [egg-security] use dta middleware
+2019-06-03 22:22:27,342 INFO 14292 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:22:27,410 INFO 14292 [egg:core] dump config after load, 23ms
+2019-06-03 22:22:27,417 INFO 14292 [egg-mongoose] starting...
+2019-06-03 22:22:27,578 INFO 14292 [egg-watcher:application] watcher start success
+2019-06-03 22:22:27,611 INFO 14292 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:22:27,651 INFO 14292 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:22:27,718 INFO 14292 [egg:core] dump config after ready, 54ms
+2019-06-03 22:37:38,918 ERROR 14292 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:14292)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 14292
+hostname: USER-20160312QE
+
+2019-06-03 22:37:43,066 INFO 16184 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:37:43,213 INFO 16184 [egg-multipart] stream mode enable
+2019-06-03 22:37:44,572 INFO 16184 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:37:45,045 INFO 16184 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:37:45,051 INFO 16184 [egg-security] use methodnoallow middleware
+2019-06-03 22:37:45,052 INFO 16184 [egg-security] use noopen middleware
+2019-06-03 22:37:45,054 INFO 16184 [egg-security] use nosniff middleware
+2019-06-03 22:37:45,054 INFO 16184 [egg-security] use xssProtection middleware
+2019-06-03 22:37:45,055 INFO 16184 [egg-security] use xframe middleware
+2019-06-03 22:37:45,056 INFO 16184 [egg-security] use dta middleware
+2019-06-03 22:37:45,056 INFO 16184 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:37:45,109 INFO 16184 [egg:core] dump config after load, 26ms
+2019-06-03 22:37:45,115 INFO 16184 [egg-mongoose] starting...
+2019-06-03 22:37:45,250 INFO 16184 [egg-watcher:application] watcher start success
+2019-06-03 22:37:45,274 INFO 16184 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:37:45,319 INFO 16184 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:37:45,370 INFO 16184 [egg:core] dump config after ready, 39ms
+2019-06-03 22:51:43,248 ERROR 16184 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:16184)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 16184
+hostname: USER-20160312QE
+
+2019-06-03 22:51:46,867 INFO 6508 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-03 22:51:46,954 INFO 6508 [egg-multipart] stream mode enable
+2019-06-03 22:51:48,210 INFO 6508 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-03 22:51:48,852 INFO 6508 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-03 22:51:48,860 INFO 6508 [egg-security] use methodnoallow middleware
+2019-06-03 22:51:48,861 INFO 6508 [egg-security] use noopen middleware
+2019-06-03 22:51:48,866 INFO 6508 [egg-security] use nosniff middleware
+2019-06-03 22:51:48,867 INFO 6508 [egg-security] use xssProtection middleware
+2019-06-03 22:51:48,867 INFO 6508 [egg-security] use xframe middleware
+2019-06-03 22:51:48,868 INFO 6508 [egg-security] use dta middleware
+2019-06-03 22:51:48,868 INFO 6508 [egg-security] compose 6 middlewares into one security middleware
+2019-06-03 22:51:48,925 INFO 6508 [egg:core] dump config after load, 22ms
+2019-06-03 22:51:48,932 INFO 6508 [egg-mongoose] starting...
+2019-06-03 22:51:49,120 INFO 6508 [egg-watcher:application] watcher start success
+2019-06-03 22:51:49,137 INFO 6508 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-03 22:51:49,252 INFO 6508 [egg-mongoose] instance[0] start successfully
+2019-06-03 22:51:49,314 INFO 6508 [egg:core] dump config after ready, 47ms

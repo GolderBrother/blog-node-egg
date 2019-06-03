@@ -86,7 +86,7 @@ class ProjectsService extends Service {
         content: 1,
         img: 1,
         url: 1,
-        // state: 1,
+        state: 1,
         start_time: 1,
         end_time: 1,
         // update_time: 1,
