@@ -9680,3 +9680,142 @@ hostname: USER-20160312QE
 pid: 16184
 hostname: USER-20160312QE
 
+2019-06-05 21:50:10,045 ERROR 10956 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:10956)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 10956
+hostname: USER-20160312QE
+
+2019-06-05 21:50:44,264 ERROR 6008 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:6008)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 6008
+hostname: USER-20160312QE
+
+2019-06-05 21:50:58,729 ERROR 13144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13144
+hostname: USER-20160312QE
+
+2019-06-05 21:52:43,806 ERROR 17020 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:17020)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 17020
+hostname: USER-20160312QE
+
+2019-06-05 21:53:03,245 ERROR 15532 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:15532)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 15532
+hostname: USER-20160312QE
+
+2019-06-05 21:53:15,310 ERROR 13940 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:13940)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 13940
+hostname: USER-20160312QE
+
+2019-06-05 21:55:01,194 ERROR 2972 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:2972)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 2972
+hostname: USER-20160312QE
+
+2019-06-05 22:55:40,520 ERROR 116 nodejs.TypeError: cluster.fork is not a function (uncaughtException throw 1 times on pid:116)
+    at reload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_cluster-reload@1.0.2@cluster-reload\index.js:67:23)
+    at Master.onReload (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:540:30)
+    at emitOne (events.js:116:13)
+    at Master.emit (events.js:211:7)
+    at Messenger.sendToMaster (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:137:17)
+    at Messenger.send (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\utils\messenger.js:102:12)
+    at ChildProcess.agentWorker.on.msg (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-cluster@1.23.2@egg-cluster\lib\master.js:222:22)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+pid: 116
+hostname: USER-20160312QE
+
+2019-06-05 22:55:56,229 ERROR 13144 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13144
+hostname: USER-20160312QE
+

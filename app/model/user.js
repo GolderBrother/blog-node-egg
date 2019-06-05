@@ -66,7 +66,7 @@ const UserModel = app => {
     // 头像
     avatar: {
       type: String,
-      default: 'user'
+      default: '../assets/user.png'
     },
 
     // 地址

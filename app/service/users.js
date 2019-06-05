@@ -442,7 +442,13 @@ class UsersService extends Service {
                         _id: 1,
                         email: 1,
                         name: 1,
-                        avatar: 1,
+                        _avatar: 1,
+                        get avatar() {
+                            return this._avatar;
+                        },
+                        set avatar(value) {
+                            this._avatar = value;
+                        },
                         phone: 1,
                         introduce: 1,
                         type: 1,
