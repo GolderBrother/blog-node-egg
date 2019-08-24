@@ -1,0 +1,313 @@
+2019-05-19 10:53:40,435 ERROR 4936 [-/127.0.0.1/-/12ms GET /getTagList?keyword=&pageNum=1&pageSize=50] nodejs.TypeError: Cannot read property 'getTagList' of undefined
+    at TagsController.getTagList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\tags.js:15:43)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 4936
+hostname: USER-20160312QE
+
+2019-05-19 10:53:40,600 ERROR 4936 [-/127.0.0.1/-/2ms GET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10] nodejs.TypeError: Cannot read property 'articles' of undefined
+    at ArticlesController.getArticleList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:96:44)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 4936
+hostname: USER-20160312QE
+
+2019-05-19 10:56:17,559 ERROR 4936 [-/127.0.0.1/-/1ms GET /getArticleList?keyword=&likes=true&state=1&tag_id=&category_id=&pageNum=1&pageSize=10] nodejs.TypeError: Cannot read property 'articles' of undefined
+    at ArticlesController.getArticleList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:96:44)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 4936
+hostname: USER-20160312QE
+
+2019-05-19 10:58:08,717 ERROR 24244 [-/127.0.0.1/-/103ms GET /getArticleList?keyword=&likes=true&state=1&tag_id=&category_id=&pageNum=1&pageSize=10] nodejs.ReferenceError: responseClient is not defined
+    at ArticlesController.getArticleList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:106:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 24244
+hostname: USER-20160312QE
+
+2019-05-19 10:59:31,439 ERROR 17660 [-/127.0.0.1/-/20ms GET /getTagList?keyword=&pageNum=1&pageSize=50] nodejs.TypeError: Cannot read property 'getTagList' of undefined
+    at TagsController.getTagList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\tags.js:15:43)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 17660
+hostname: USER-20160312QE
+
+2019-05-19 11:01:33,728 ERROR 22428 [-/127.0.0.1/-/16ms GET /getTimeAxisList?keyword=&pageNum=1&pageSize=10] nodejs.TypeError: Cannot read property 'getTimeAxisList' of undefined
+    at TimeAxisController.getTimeAxisList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\timeAxis.js:14:54)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 22428
+hostname: USER-20160312QE
+
+2019-05-19 11:02:19,122 ERROR 15848 [-/127.0.0.1/-/56ms POST /getArticleDetail] nodejs.TypeError: this.ctx.service.getArticleDetailByType is not a function
+    at ArticlesController.getArticleDetail (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:158:43)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 15848
+hostname: USER-20160312QE
+
+2019-05-19 11:50:59,581 ERROR 25828 [-/127.0.0.1/-/15ms POST /loginAdmin] nodejs.ReferenceError: responseClient is not defined
+    at UsersController.loginAdmin (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\users.js:88:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 25828
+hostname: USER-20160312QE
+
+2019-05-19 11:51:46,873 ERROR 25828 [-/127.0.0.1/-/9ms POST /loginAdmin] nodejs.ReferenceError: responseClient is not defined
+    at UsersController.loginAdmin (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\users.js:88:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 25828
+hostname: USER-20160312QE
+
+2019-05-19 11:52:07,492 ERROR 25828 [-/127.0.0.1/-/4ms POST /loginAdmin] nodejs.ReferenceError: responseClient is not defined
+    at UsersController.loginAdmin (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\users.js:88:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 25828
+hostname: USER-20160312QE
+
+2019-05-19 11:53:41,608 ERROR 30280 [-/127.0.0.1/-/3ms GET /getCategoryList?pageNum=1&pageSize=50] nodejs.TypeError: Cannot destructure property `keyword` of 'undefined' or 'null'.
+    at CategoriesController.getCategoryList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\categories.js:10:22)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 30280
+hostname: USER-20160312QE
+
+2019-05-19 11:54:56,448 ERROR 30432 [-/127.0.0.1/-/2ms GET /getCategoryList?pageNum=1&pageSize=50] nodejs.TypeError: Cannot read property 'getCategoryList' of undefined
+    at CategoriesController.getCategoryList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\categories.js:11:60)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 30432
+hostname: USER-20160312QE
+
+2019-05-19 11:56:09,713 ERROR 27052 [-/127.0.0.1/-/3ms GET /getLinkList?keyword=&type=&pageNum=1&pageSize=10] nodejs.TypeError: Cannot read property 'getLinkList' of undefined
+    at LinksController.getLinkList (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\links.js:11:54)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 27052
+hostname: USER-20160312QE
+
+2019-05-19 20:00:02,289 ERROR 24300 [-/127.0.0.1/-/157ms GET /getArticleListAdmin?keyword=&state=&pageNum=1&pageSize=10] nodejs.TypeError: Cannot read property 'httpCode' of undefined
+    at ArticlesController.getArticleListAdmin (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:126:32)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 24300
+hostname: USER-20160312QE
+
+2019-05-19 21:20:58,935 ERROR 5644 [-/127.0.0.1/-/3ms DELETE /delMessage] nodejs.TypeError: ctx.service.messages.deleteMany is not a function
+    at MessagesController.delMessage (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\messages.js:57:45)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 5644
+hostname: USER-20160312QE
+
+2019-05-19 21:38:07,371 ERROR 32344 [-/127.0.0.1/-/3ms POST /addTimeAxis] nodejs.ReferenceError: ctx is not defined
+    at TimeAxisController.addTimeAxis (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\timeAxis.js:31:9)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 32344
+hostname: USER-20160312QE
+
+2019-05-19 22:00:06,291 ERROR 2256 [-/127.0.0.1/-/6ms PUT /updateProject] nodejs.TypeError: this.ctx.service.projects.updateOne is not a function
+    at ProjectsController.updateProject (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\projects.js:59:52)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 2256
+hostname: USER-20160312QE
+
+2019-05-23 23:18:12,013 ERROR 21472 [-/127.0.0.1/-/9ms POST /addArticle] nodejs.TypeError: Cannot read property 'articles' of undefined
+    at ArticlesController.addArticle (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\controller\articles.js:24:39)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-core@4.17.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21472
+hostname: USER-20160312QE
+

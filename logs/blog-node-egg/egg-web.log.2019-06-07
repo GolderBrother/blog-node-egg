@@ -1,0 +1,47 @@
+2019-06-07 00:00:01,086 INFO 13300 [egg-logrotator] app logger reload: got log-reload message
+2019-06-07 21:51:35,211 INFO 18888 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-07 21:51:35,273 INFO 18888 [egg-multipart] stream mode enable
+2019-06-07 21:52:10,482 INFO 18888 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-07 21:52:21,158 INFO 18888 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-07 21:52:21,202 INFO 18888 [egg-security] use methodnoallow middleware
+2019-06-07 21:52:21,258 INFO 18888 [egg-security] use noopen middleware
+2019-06-07 21:52:21,267 INFO 18888 [egg-security] use nosniff middleware
+2019-06-07 21:52:21,270 INFO 18888 [egg-security] use xssProtection middleware
+2019-06-07 21:52:21,271 INFO 18888 [egg-security] use xframe middleware
+2019-06-07 21:52:21,272 INFO 18888 [egg-security] use dta middleware
+2019-06-07 21:52:21,272 INFO 18888 [egg-security] compose 6 middlewares into one security middleware
+2019-06-07 21:52:21,365 INFO 18888 [egg:core] dump config after load, 36ms
+2019-06-07 21:52:21,373 INFO 18888 [egg-mongoose] starting...
+2019-06-07 21:51:32,559 INFO 16072 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-07 21:51:32,624 INFO 16072 [egg-multipart] stream mode enable
+2019-06-07 21:52:10,481 INFO 16072 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-07 21:52:21,158 INFO 16072 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-07 21:52:21,201 INFO 16072 [egg-security] use methodnoallow middleware
+2019-06-07 21:52:21,257 INFO 16072 [egg-security] use noopen middleware
+2019-06-07 21:52:21,266 INFO 16072 [egg-security] use nosniff middleware
+2019-06-07 21:52:21,269 INFO 16072 [egg-security] use xssProtection middleware
+2019-06-07 21:52:21,270 INFO 16072 [egg-security] use xframe middleware
+2019-06-07 21:52:21,271 INFO 16072 [egg-security] use dta middleware
+2019-06-07 21:52:21,271 INFO 16072 [egg-security] compose 6 middlewares into one security middleware
+2019-06-07 21:52:21,362 INFO 16072 [egg:core] dump config after load, 31ms
+2019-06-07 21:52:21,370 INFO 16072 [egg-mongoose] starting...
+2019-06-07 21:54:20,264 INFO 18300 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-06-07 21:54:20,334 INFO 18300 [egg-multipart] stream mode enable
+2019-06-07 21:54:20,932 INFO 18300 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-06-07 21:54:21,317 INFO 18300 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-06-07 21:54:21,324 INFO 18300 [egg-security] use methodnoallow middleware
+2019-06-07 21:54:21,325 INFO 18300 [egg-security] use noopen middleware
+2019-06-07 21:54:21,328 INFO 18300 [egg-security] use nosniff middleware
+2019-06-07 21:54:21,329 INFO 18300 [egg-security] use xssProtection middleware
+2019-06-07 21:54:21,329 INFO 18300 [egg-security] use xframe middleware
+2019-06-07 21:54:21,330 INFO 18300 [egg-security] use dta middleware
+2019-06-07 21:54:21,330 INFO 18300 [egg-security] compose 6 middlewares into one security middleware
+2019-06-07 21:54:21,380 INFO 18300 [egg:core] dump config after load, 18ms
+2019-06-07 21:54:21,384 INFO 18300 [egg-mongoose] starting...
+2019-06-07 21:54:21,536 INFO 18300 [egg-mongoose] mongodb://127.0.0.1:27017/blogNode connected successfully
+2019-06-07 21:54:21,579 INFO 18300 [egg-mongoose] instance[0] start successfully
+2019-06-07 21:54:21,590 INFO 18300 [egg-watcher:application] watcher start success
+2019-06-07 21:54:21,630 INFO 18300 [egg:core] dump config after ready, 34ms
+2019-06-08 00:00:03,103 INFO 18300 [egg-logrotator] clean all log before 31 days
+2019-06-08 00:00:03,345 INFO 18300 [egg-logrotator] broadcast log-reload
+2019-06-08 00:00:03,346 INFO 18300 [egg-logrotator] rotate files success by DayRotator, files ["F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\common-error.log -> F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\common-error.log.2019-06-07","F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\blog-node-egg-web.log -> F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\blog-node-egg-web.log.2019-06-07","F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-web.log -> F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-web.log.2019-06-07","F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-schedule.log -> F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-schedule.log.2019-06-07","F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-agent.log -> F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg\\egg-agent.log.2019-06-07"]
