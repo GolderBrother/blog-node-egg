@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5cd447d79865305588453109"},"name":"react","desc":"React 是一个用于构建用户界面的 JAVASCRIPT 库。  React主要用于构建UI，很多人认为 React 是 MVC 中的 V（视图）。  React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。  React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。","create_time":{"$date":"2019-05-09T15:31:35.177Z"},"update_time":{"$date":"2019-05-09T15:31:35.177Z"},"id":1,"__v":0}
