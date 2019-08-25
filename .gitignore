@@ -16,6 +16,9 @@
 # logs
 /logs
 
+# run
+/run
+
 
 # misc
 .DS_Store
