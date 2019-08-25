@@ -4,10 +4,17 @@
   "description": "The server for blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "egg-bin dev",
-    "start": "npm run dev",
-    "nodemon": "nodemon app.js --name test"
+    "start": "egg-scripts start --daemon --title=blog-node-egg",
+    "stop": "egg-scripts stop --title=blog-node-egg",
+    "restart": "npm run stop && npm run start",
+    "pm2": "pm2 start app.js --name blog-node-egg --watch",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov"
   },
   "repository": {
     "type": "git",
