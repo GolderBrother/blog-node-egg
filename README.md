@@ -56,7 +56,7 @@ blog-node 是采用了主流的前后端分离思想的，主里只讲 后端。
 # install dependencies
 npm install
 
-# serve with hot reload at localhost: 3000
+# serve with hot reload at localhost: 5000
 npm start
 
 # build for production with minification
@@ -80,7 +80,7 @@ npm start
 - 1.  url
 
 ```
-http://127.0.0.1:3000/register
+http://127.0.0.1:5000/register
 ```
 
 - 2. param
