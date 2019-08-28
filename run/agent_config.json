@@ -90,7 +90,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
         "development": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
@@ -121,6 +121,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -135,13 +142,12 @@
       "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "ejs",
       "mapping": {}
@@ -167,7 +173,7 @@
     },
     "ejs": {
       "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view",
-      "cache": true,
+      "cache": false,
       "debug": false,
       "compileDebug": true,
       "delimiter": null,
@@ -178,7 +184,7 @@
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
-    "env": "prod",
+    "env": "local",
     "name": "blog-node-egg",
     "keys": "<String len: 32>",
     "proxy": false,
@@ -193,8 +199,8 @@
       "main": "index.js",
       "scripts": {
         "dev": "egg-bin dev",
-        "start": "egg-scripts start --daemon --watch --title=blog-node-egg",
-        "stop": "egg-scripts stop --title=blog-node-egg",
+        "start": "npm run dev",
+        "nodemon": "nodemon app.js --name blog-node-egg",
         "restart": "npm run stop && npm run start",
         "pm2": "pm2 start app.js --name blog-node-egg --watch",
         "debug": "egg-bin debug",
@@ -266,19 +272,21 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\logs\\blog-node-egg",
+      "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "blog-node-egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -430,6 +438,21 @@
       "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
       "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-multipart",
       "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development",
+      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,
