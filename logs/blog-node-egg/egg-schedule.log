@@ -1,0 +1,15 @@
+2019-08-28 21:24:42,471 INFO 12876 [egg-schedule]: register schedule f:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-28 21:24:42,471 INFO 12876 [egg-schedule]: register schedule f:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-28 21:24:42,471 INFO 12876 [egg-schedule]: register schedule f:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-28 22:42:34,321 INFO 12644 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-28 22:42:34,321 INFO 12644 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-28 22:42:34,321 INFO 12644 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-28 22:42:34,226 INFO 14844 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-28 22:42:34,226 INFO 14844 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-28 22:42:34,226 INFO 14844 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-28 22:42:34,580 INFO 14228 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-28 22:42:34,580 INFO 14228 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-28 22:42:34,580 INFO 14228 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-08-28 22:42:34,738 INFO 4364 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-08-28 22:42:34,738 INFO 4364 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-08-28 22:42:34,738 INFO 4364 [egg-schedule]: register schedule F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
