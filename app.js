@@ -7,3 +7,5 @@ egg.startCluster({
     workers,
     baseDir: __dirname,
 });
+
+module.exports = egg;

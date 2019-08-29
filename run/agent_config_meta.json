@@ -48,7 +48,7 @@
       "value": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\config.local.js",
+      "enable": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\config.default.js",
       "maxAge": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\config.default.js",
       "includeSubdomains": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\config.default.js"
     },
@@ -98,7 +98,7 @@
   "view": {
     "defaultViewEngine": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\config.default.js",
     "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\config.local.js",
+    "cache": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\config.default.js",
     "defaultExtension": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\config.default.js"
   },
@@ -125,7 +125,7 @@
     "cookieMaxAge": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\config\\config.default.js",
     "eventSources": {
       "default": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\config\\config.default.js",
       "development": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\config\\config.default.js"
@@ -156,13 +156,6 @@
       "cron": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
-  "development": {
-    "watchDirs": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-development\\config\\config.default.js"
-  },
   "logrotator": {
     "filesRotateByHour": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
     "hourDelimiter": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-logrotator\\config\\config.default.js",
@@ -177,12 +170,13 @@
     "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js",
     "dynamic": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js",
     "preload": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js"
+    "buffer": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.prod.js",
+    "maxFiles": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.default.js",
+    "maxAge": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\config.prod.js"
   },
   "ejs": {
     "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
-    "cache": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.local.js",
+    "cache": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
     "debug": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
     "compileDebug": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
     "delimiter": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\config.default.js",
@@ -203,7 +197,7 @@
     "scripts": {
       "dev": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
       "start": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
-      "nodemon": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
       "restart": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
       "pm2": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
       "debug": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
@@ -285,9 +279,7 @@
     "coreLogName": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
     "agentLogName": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
     "errorLogName": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.local.js"
-    },
+    "coreLogger": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js",
     "allowDebugAtProd": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {

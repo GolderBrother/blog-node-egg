@@ -7,6 +7,7 @@
     "dev": "egg-bin dev",
     "start": "egg-scripts start --daemon --watch --title=blog-node-egg",
     "stop": "egg-scripts stop --title=blog-node-egg",
+    "nodemon": "nodemon app.js --name blog-node-egg",
     "restart": "npm run stop && npm run start",
     "pm2": "pm2 start app.js --name blog-node-egg --watch",
     "debug": "egg-bin debug",

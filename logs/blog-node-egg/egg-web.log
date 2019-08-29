@@ -95,3 +95,16 @@
 2019-08-28 22:54:59,155 INFO 4748 [egg-security] compose 6 middlewares into one security middleware
 2019-08-28 22:54:59,225 INFO 4748 [egg:core] dump config after load, 22ms
 2019-08-28 22:54:59,233 INFO 4748 [egg-mongoose] starting...
+2019-08-28 23:06:01,382 INFO 9692 [egg:logger] init all loggers with options: {"dir":"F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\logs\\blog-node-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"blog-node-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-28 23:06:01,453 INFO 9692 [egg-multipart] stream mode enable
+2019-08-28 23:06:02,216 INFO 9692 [egg-mongoose] connecting mongodb://127.0.0.1:27017/blogNode
+2019-08-28 23:06:02,444 INFO 9692 [egg-static] starting static serve /public/ -> F:\front-end\front-end-study\code\project\github-demo\blog\react\blog-node-egg\app\public
+2019-08-28 23:06:02,450 INFO 9692 [egg-security] use methodnoallow middleware
+2019-08-28 23:06:02,452 INFO 9692 [egg-security] use noopen middleware
+2019-08-28 23:06:02,454 INFO 9692 [egg-security] use nosniff middleware
+2019-08-28 23:06:02,455 INFO 9692 [egg-security] use xssProtection middleware
+2019-08-28 23:06:02,456 INFO 9692 [egg-security] use xframe middleware
+2019-08-28 23:06:02,457 INFO 9692 [egg-security] use dta middleware
+2019-08-28 23:06:02,457 INFO 9692 [egg-security] compose 6 middlewares into one security middleware
+2019-08-28 23:06:02,528 INFO 9692 [egg:core] dump config after load, 26ms
+2019-08-28 23:06:02,536 INFO 9692 [egg-mongoose] starting...
