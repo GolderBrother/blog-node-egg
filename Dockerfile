@@ -9,6 +9,6 @@ WORKDIR /app
 # 运行命令
 RUN npm install
 # 向外暴露6000端口
-EXPOSE 6100
+EXPOSE 6000
 # 基于镜像生成容器后，执行命令
 CMD npm run dev
