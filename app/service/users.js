@@ -1,10 +1,11 @@
-const {
-    Service
-} = require('egg');
+// const {
+//     Service
+// } = require('egg');
+const BaseService = require('./base');
 const CONFIG = require('../../config/config');
 const fetch = require('node-fetch');
 const utils = require('../middleware/utils');
-class UsersService extends Service {
+class UsersService extends BaseService {
     // 第三方授权登录的用户信息
     async getUser() {
         const {
@@ -55,7 +56,8 @@ class UsersService extends Service {
                 });
                 if (userInfo) {
                     //登录成功后设置session
-                    req.session.userInfo = userInfo;
+                    // req.session.userInfo = userInfo;
+                    this.ctx.session.userInfo = userInfo;
                     response["code"] = 0;
                     response["httpCode"] = 200;
                     response["data"] = userInfo;
@@ -93,7 +95,8 @@ class UsersService extends Service {
                 // console.log('userInfo :', userInfo);
                 if (userInfo) {
                     //登录成功后设置session
-                    req.session.userInfo = userInfo;
+                    // req.session.userInfo = userInfo;
+                    this.ctx.session.userInfo = userInfo;
                     response["code"] = 0;
                     response["httpCode"] = 200;
                     response["data"] = userInfo;
@@ -158,6 +161,9 @@ class UsersService extends Service {
                 password
             });
             if (userInfo) {
+                //登录成功后设置session
+                // this.userInfo = userInfo;
+                this.ctx.session.userInfo = userInfo;
                 res["code"] = 0;
                 res["data"] = userInfo;
                 res["message"] = '登录成功';
@@ -218,7 +224,8 @@ class UsersService extends Service {
         try {
             if (userInfo.type === 0) {
                 //登录成功后设置session
-                this.ctx.userInfo = userInfo;
+                // req.session.userInfo = userInfo;
+                this.ctx.session.userInfo = userInfo;
                 res["code"] = 0;
                 res["httpCode"] = 200;
                 res["message"] = '登录成功';

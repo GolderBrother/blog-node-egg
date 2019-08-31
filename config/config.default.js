@@ -1,12 +1,13 @@
 // 此处改为你自己的 Cookie 安全字符串
 // exports.keys = 'jamesZhang';
-
+// https://eggjs.org/en/core/logger.html#mobileAside
 /* eslint valid-jsdoc: "off" */
 
 'use strict';
 const {
   argv
 } = require('yargs');
+const path = require('path');
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
@@ -97,6 +98,12 @@ module.exports = appInfo => {
   config.view = {
     defaultViewEngine: 'ejs',
   };
+
+  // 把日志文件转移到指定目录下
+  config.logger = {
+    dir: path.resolve(__dirname, '../logs/blog-node-egg'),
+  };
+  
 
   // debug 为 true 时，用于本地调试
   config.debug = true;

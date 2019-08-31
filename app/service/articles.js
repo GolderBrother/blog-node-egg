@@ -1,8 +1,9 @@
-const {
-    Service
-} = require('egg');
+// const {
+//     Service
+// } = require('egg');
+const BaseService = require('./base');
 const utils = require('../middleware/utils');
-class ArticlesService extends Service {
+class ArticlesService extends BaseService {
     async addArticle(options) {
         let res = {};
         res["httpCode"] = 200;
@@ -501,7 +502,7 @@ class ArticlesService extends Service {
             }
             let {
                 id = '',
-                    user_id = ''
+                user_id = ''
             } = options;
             const data = await this.ctx.model.Article.findOne({
                 _id: id
@@ -522,7 +523,7 @@ class ArticlesService extends Service {
             new_like_user.introduce = user.introduce;
             like_users_arr.push(new_like_user);
             fields.like_users = like_users_arr;
-            const result = await User.update({
+            const result = await this.ctx.model.User.update({
                 _id: id
             }, fields);
             res["code"] = 0;

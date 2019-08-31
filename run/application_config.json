@@ -91,29 +91,30 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-session\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-jsonp\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-onerror\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-i18n\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-schedule\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-multipart\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-logrotator\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-mongoose\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-cors\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\mongoose-auto-increment\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-router-plus\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\locales",
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\locales"
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-session\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-security\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-jsonp\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-onerror\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-i18n\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-watcher\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-schedule\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-multipart\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-development\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-logrotator\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-static\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-view\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-mongoose\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-view-ejs\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-cors\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\mongoose-auto-increment\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-router-plus\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\locales",
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -122,10 +123,10 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
-        "default": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -153,6 +154,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -164,18 +172,17 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\public",
+      "dir": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\app\\public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": [
-        "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view"
+        "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\app\\view"
       ],
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "ejs",
       "mapping": {}
@@ -200,8 +207,8 @@
       }
     },
     "ejs": {
-      "root": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\app\\view",
-      "cache": true,
+      "root": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\app\\view",
+      "cache": false,
       "debug": false,
       "compileDebug": true,
       "delimiter": null,
@@ -212,7 +219,7 @@
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
-    "env": "prod",
+    "env": "local",
     "name": "blog-node-egg",
     "keys": "<String len: 32>",
     "proxy": false,
@@ -267,9 +274,9 @@
         "egg-bin": "^4.13.0"
       }
     },
-    "baseDir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg",
+    "baseDir": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\run",
+    "rundir": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -300,19 +307,21 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\logs\\blog-node-egg",
+      "dir": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\logs\\blog-node-egg",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "blog-node-egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "application"
     },
@@ -350,7 +359,8 @@
       "overrideMethod",
       "session",
       "securities",
-      "i18n"
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -393,8 +403,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-session",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -406,8 +416,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-security",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-security",
       "version": "2.6.1"
     },
     "jsonp": {
@@ -419,8 +429,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-jsonp",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -432,8 +442,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-onerror",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -443,8 +453,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-i18n",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -454,8 +464,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-watcher",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -465,8 +475,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-schedule",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -478,9 +488,24 @@
         "schedule"
       ],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-multipart",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-multipart",
       "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-development",
+      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,
@@ -491,8 +516,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-logrotator",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -502,8 +527,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-static",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -513,8 +538,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "mongoose": {
@@ -525,8 +550,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-mongoose",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-mongoose",
       "version": "3.2.0"
     },
     "ejs": {
@@ -538,8 +563,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-view-ejs",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-view-ejs",
       "version": "2.0.0"
     },
     "cors": {
@@ -550,8 +575,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-cors",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-cors",
       "version": "2.2.0"
     },
     "autoIncrement": {
@@ -562,8 +587,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\mongoose-auto-increment",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\mongoose-auto-increment",
       "version": "5.0.1"
     },
     "routerPlus": {
@@ -573,8 +598,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\config\\plugin.js",
-      "path": "F:\\front-end\\front-end-study\\code\\project\\github-demo\\blog\\react\\blog-node-egg\\node_modules\\egg-router-plus",
+      "from": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\config\\plugin.js",
+      "path": "F:\\James\\study\\front-end\\code\\blog\\blog-node-egg\\node_modules\\egg-router-plus",
       "version": "1.3.1"
     }
   }

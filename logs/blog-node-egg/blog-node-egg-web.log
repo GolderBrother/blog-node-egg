@@ -1,0 +1,12 @@
+2019-08-31 14:14:33,016 ERROR 56092 [-/127.0.0.1/-/3523ms POST /getUser] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at Object.hash (F:\James\study\front-end\code\blog\blog-node-egg\node_modules\koa-session\lib\util.js:35:21)
+    at ContextSession._shouldSaveSession (F:\James\study\front-end\code\blog\blog-node-egg\node_modules\koa-session\lib\context.js:254:39)
+    at ContextSession.commit (F:\James\study\front-end\code\blog\blog-node-egg\node_modules\koa-session\lib\context.js:230:25)
+    at session (F:\James\study\front-end\code\blog\blog-node-egg\node_modules\koa-session\index.js:46:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 56092
+hostname: A00010010864
+
