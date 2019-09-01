@@ -15,7 +15,7 @@ COPY package.json /usr/projects/blog/blog-node-egg/package.json
 # 运行命令
 # 安装npm依赖
 RUN npm install
-# 向外暴露容器6000端口
-EXPOSE 6000
+# 向外暴露容器6100端口
+EXPOSE 6100
 # 启动node应用，基于镜像生成容器后，执行命令
 CMD npm start

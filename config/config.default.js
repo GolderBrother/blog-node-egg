@@ -28,7 +28,8 @@ module.exports = appInfo => {
   config.cluster = {
     listen: {
       path: '',
-      port: 6000,
+      // 坑！！！如果您的6000端口需要通过公网访问，需要将监听地址修改为0.0.0.0
+      port: 6100,
       hostname: '0.0.0.0',
     }
   };
