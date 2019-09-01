@@ -18,6 +18,7 @@ mongoexport
 导入json:
 
 ```bash
+# -d 数据库 -c 集合(数据表) --file 导入的文件位置 --type 导入的文件类型
 mongoimport -d taobao -c product --file d:/Chromedowload/test.json --type json
 ```
 

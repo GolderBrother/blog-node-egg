@@ -9,7 +9,7 @@ class UsersController extends BaseController {
                 email,
                 password
             } = ctx.request.body;
-            const result = await ctx.services.users.getUser({
+            const result = await ctx.service.users.getUser({
                 email,
                 password
             });
