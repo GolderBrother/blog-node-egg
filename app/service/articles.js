@@ -103,6 +103,7 @@ class ArticlesService extends BaseService {
                 author,
                 keyword: keyword ? keyword.split(',') : [],
                 content,
+                numbers: content.length,
                 desc,
                 img_url,
                 tags: tags ? tags.split(',') : [],
