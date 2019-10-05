@@ -122,7 +122,7 @@ class ArticlesController extends BaseController {
       pageNum,
       pageSize
     });
-    console.log("result %o:", result);
+    // console.log("result %o:", result);
     this.responseClient(result.httpCode, result.code, result.message, result.data);
   };
 

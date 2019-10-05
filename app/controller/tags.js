@@ -2,8 +2,6 @@ const BaseController = require('./base');
 class TagsController extends BaseController {
   //获取全部标签
   async getTagList() {
-    // console.log('req userInfo: ',req.cookies.userInfo)
-    // console.log('req userInfo 2: ', unescape(req.cookies.userInfo));
     const {
       ctx
     } = this;

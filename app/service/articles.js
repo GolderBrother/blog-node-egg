@@ -351,7 +351,6 @@ class ArticlesService extends BaseService {
             pageSize = parseInt(pageSize) || 10;
             let conditions = {};
             const Article = this.ctx.model.Article;
-            console.log(keyword, state, likes, pageNum, pageSize);
             if (!state) {
                 if (keyword) {
                     const reg = new RegExp(keyword, 'i'); //不区分大小写
@@ -485,7 +484,7 @@ class ArticlesService extends BaseService {
             });
             // return res;
         } catch (error) {
-            console.log(error);
+            console.error('Error:' + error);
             utils.handleError(res, error);
         }
         return res;
@@ -588,7 +587,7 @@ class ArticlesService extends BaseService {
             }, {
                 meta: data.meta
             });
-            console.log("result %o:", result);
+            // console.log("result %o:", result);
             res["httpCode"] = 200;
             res["code"] = 0;
             res["message"] = '操作成功';
@@ -611,7 +610,7 @@ class ArticlesService extends BaseService {
             } = options;
             type = Number(type) || 1; //文章类型 => 1: 普通文章，2: 简历，3: 管理员介绍
             filter = Number(filter) || 1; //文章的评论过滤 => 1: 过滤，2: 不过滤
-            console.log(id, type, filter);
+            // console.log(id, type, filter);
             const Article = this.ctx.model.Article;
             if (type === 1) {
                 if (!id) {
@@ -624,7 +623,7 @@ class ArticlesService extends BaseService {
                             _id: id
                         }, async (error, data) => {
                             if (error) {
-                                console.error('error:' + error);
+                                console.error('Error:' + error);
                                 throw new Error(error);
                             } else {
                                 if (data && data.meta) data.meta.views = data.meta.views + 1;
@@ -674,7 +673,7 @@ class ArticlesService extends BaseService {
                         }])
                         .exec((err, doc) => {
                             if (err) {
-                                console.log("err:", err);
+                                console.error('Error:' + err);
                             }
                             if (doc) {
                                 console.log("doc.tags:", doc.tags);
@@ -736,7 +735,7 @@ class ArticlesService extends BaseService {
                                         // return res;  
                                     }
                                 }
-                                console.log(res);
+                                // console.log(res);
                                 resolve(res);
                             })
                             .populate([{
@@ -748,7 +747,7 @@ class ArticlesService extends BaseService {
                             }])
                             .exec((err, doc) => {
                                 if (err) {
-                                    console.log("err:", err);
+                                    console.error('Error:' + err);
                                 }
                                 if (doc) {
                                     console.log("doc.tags:", doc.tags);
@@ -757,13 +756,13 @@ class ArticlesService extends BaseService {
                             });
                     });
                 } catch (error) {
-                    console.log(error);
+                    console.error('Error:' + error);
                     utils.handleError(res, error);
                 }
             }
-            console.log(res);
+            // console.log(res);
         } catch (error) {
-            console.log(error);
+            console.error('Error:' + error);
             utils.handleError(res, error);
         }
         return res;

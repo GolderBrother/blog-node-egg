@@ -8,27 +8,25 @@ class CommentsController extends BaseController {
       is_handle,
       pageNum,
       pageSize
-    } = req.query;
-    const result = await this.ctx.service.CommentsService.getCommentList({
+    } = this.ctx.query;
+    const result = await this.ctx.service.comments.getCommentList({
       keyword,
       is_handle,
       pageNum,
       pageSize
     });
-    this.this.responseClient(result.httpCode, result.code, result.message, result.data);
+    this.responseClient(result.httpCode, result.code, result.message, result.data);
   };
 
   // 添加一级评论
   async addComment() {
-    const {
-      userInfo
-    } = req.session;
+    const userInfo = this.userInfo;
     const {
       article_id,
       user_id,
       content
-    } = req.body;
-    const result = await this.ctx.service.CommentsService.addComment({
+    } = this.ctx.request.body;
+    const result = await this.ctx.service.comments.addComment({
       userInfo,
       article_id,
       user_id,
@@ -45,11 +43,12 @@ class CommentsController extends BaseController {
       user_id,
       content,
       to_user
-    } = req.body;
-    let {
-      userInfo
-    } = req.session;
-    const result = await this.ctx.service.CommentsService.addThirdComment({
+    } = this.ctx.request.body;
+    // let {
+    //   userInfo
+    // } = req.session;
+    const userInfo = this.userInfo;
+    const result = await this.ctx.service.comments.addThirdComment({
       userInfo,
       article_id,
       comment_id,
@@ -70,8 +69,8 @@ class CommentsController extends BaseController {
     let {
       id,
       state
-    } = req.body;
-    const result = await this.ctx.service.CommentsService.updateOne({
+    } = this.ctx.request.body;
+    const result = await this.ctx.service.comments.updateOne({
       id,
       state
     });
@@ -88,8 +87,8 @@ class CommentsController extends BaseController {
       id,
       state,
       index
-    } = req.body;
-    const result = await this.ctx.service.CommentsService.changeThirdComment({
+    } = this.ctx.request.body;
+    const result = await this.ctx.service.comments.changeThirdComment({
       id,
       state,
       index

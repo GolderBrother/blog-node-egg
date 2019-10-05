@@ -42,14 +42,14 @@ class UsersService extends BaseService {
             let arg = args[0].split('=');
             const access_token = arg[1];
             // console.log("body:",body);
-            console.log('access_token:', access_token);
+            // console.log('access_token:', access_token);
             // 备注：await后面可以跟普通值
             const token = await access_token;
             const url = CONFIG.GITHUB.user_url + '?access_token=' + token;
-            console.log('url:', url);
+            // console.log('url:', url);
             const res2 = await fetch(url);
             const response2 = await res2.json();
-            console.log('response2 ', response2);
+            // console.log('response2 ', response2);
             if (response2.id) {
                 const userInfo = User.findOne({
                     github_id: response2.id
@@ -84,9 +84,9 @@ class UsersService extends BaseService {
                 }
             }
             const res3 = await fetch(url);
-            console.log('res3 :', res3);
+            // console.log('res3 :', res3);
             const response3 = await res3.json();
-            console.log('response3 ', response3);
+            // console.log('response3 ', response3);
             if (response3.id) {
                 //验证用户是否已经在数据库中
                 const userInfo = await User.findOne({
@@ -128,7 +128,7 @@ class UsersService extends BaseService {
                 response["message"] = '授权登录失败';
             }
             const res4 = await fetch(url);
-            console.log('res4 :', res4);
+            // console.log('res4 :', res4);
             const response4 = await res4.json();
         } catch (error) {
             utils.handleError(res, error);
@@ -429,7 +429,7 @@ class UsersService extends BaseService {
                 }];
             }
 
-            console.log(conditions);
+            // console.log(conditions);
             let skip = pageNum - 1 < 0 ? 0 : (pageNum - 1) * pageSize;
             let responseData = {
                 count: 0,

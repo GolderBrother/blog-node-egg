@@ -14,10 +14,10 @@
 /build
 
 # logs
-/logs/**
+/logs
 
 # run
-/run/**
+/run
 
 
 # misc

@@ -133,3 +133,6 @@ http://127.0.0.1:5000/register
 关注公众号并回复 **福利** 可领取免费学习资料，福利详情请猛戳： [免费资源获取--Python、Java、Linux、Go、node、vue、react、javaScript](https://biaochenxuying.cn/articleDetail?article_id=5bf4ba3c245730373274df61)
 
 ![BiaoChenXuYing.png](https://upload-images.jianshu.io/upload_images/12890819-4d7d488cb8fbb76f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+TODO:
+1.评论功能有问题(addComment)

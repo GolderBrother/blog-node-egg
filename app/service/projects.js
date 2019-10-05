@@ -70,7 +70,7 @@ class ProjectsService extends Service {
       };
       await Project.countDocuments({}, (error, count) => {
         if (error) {
-          console.error('error :', error);
+          console.error('Error:' + error);
           res["httpCode"] = 500;
           res["code"] = 1;
           res["message"] = error.message || error;
