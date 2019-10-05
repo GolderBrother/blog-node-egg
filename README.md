@@ -7,7 +7,7 @@ blog-node 是采用了主流的前后端分离思想的，主里只讲 后端。
 效果请看 [http://116.62.6.228/](http://116.62.6.228/)
 
 项目详情请看这篇文章：
-[基于 node + express + mongodb 的 blog-node 项目文档说明](http://116.62.6.228/articleDetail?article_id=5bf8c57185e0f13af26e7d0d)
+[基于 node egg mongodb 的 blog-node-egg 项目文档说明](http://116.62.6.228/articleDetail?article_id=5d98168f6838f30030f94215)
 
 ## 已经实现功能
 
