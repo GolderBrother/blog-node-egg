@@ -102,9 +102,9 @@ http://127.0.0.1:5000/register
 
 **项目地址：**
 
-> [前台展示: https://github.com/GolderBrother/blog-react](https://github.com/GolderBrother/blog-react)
+> [前台展示(react版本): https://github.com/GolderBrother/blog-react](https://github.com/GolderBrother/blog-react)
 
-> [前台展示: https://github.com/GolderBrother/blog-vue-typescript](https://github.com/GolderBrother/blog-vue-typescript)
+> [前台展示(vue+ts版本): https://github.com/GolderBrother/blog-vue-typescript](https://github.com/GolderBrother/blog-vue-typescript)
 
 > [管理后台：https://github.com/GolderBrother/blog-react-admin](https://github.com/GolderBrother/blog-react-admin)
 
@@ -115,8 +115,8 @@ http://127.0.0.1:5000/register
 - 提交代码后，启动docker容器失败，持续集成和持续部署不生效，也不报错!
 > 解决办法： 端口冲突，先杀死启动端口对应的进程后在启动容器
 ```bash
-# TODO：这边启动会出现8000端口被占用，导致容器启动失败，需要解决，因此先杀掉所有8000端口的进程
-kill -9 $(lsof -i tcp:8000 -t)
+# TODO：这边启动会出现6100端口被占用，导致容器启动失败，需要解决，因此先杀掉所有6100端口的进程
+kill -9 $(lsof -i tcp:6100 -t)
 ```
 
 **本博客系统的系列文章：**

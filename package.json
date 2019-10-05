@@ -9,6 +9,7 @@
     "stop": "egg-scripts stop --title=blog-node-egg",
     "restart": "npm run stop && npm run start",
     "pm2": "pm2 start app.js --name blog-node-egg --watch",
+    "push": "git add -A && git commit -a -m 'update' && git push origin master",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test",
