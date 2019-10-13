@@ -126,6 +126,7 @@ class ArticlesService extends BaseService {
         let res = {};
         res["httpCode"] = 200;
         try {
+            const Article = this.ctx.model.Article;
             const result = await Article.deleteMany({
                 _id: id
             });
