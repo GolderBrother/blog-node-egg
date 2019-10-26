@@ -50,9 +50,9 @@ class TagsService extends Service {
       let fields = {
         _id: 1,
         name: 1,
-        // desc: 1,
+        desc: 1,
         // icon: 1,
-        // create_time: 1,
+        create_time: 1,
         // update_time: 1,
       }; // 待返回的字段
       let _options = {
