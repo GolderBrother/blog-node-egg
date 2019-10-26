@@ -85,7 +85,7 @@ class MessagesController extends BaseController {
 			state,
 			content
 		} = ctx.request.body;
-		const result = await MessageService.addReplyMessage({
+		const result = await ctx.service.messages.addReplyMessage({
 			id,
 			state,
 			content,

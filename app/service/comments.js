@@ -39,7 +39,6 @@ class CommentsService extends Service {
         conditions = {
           is_handle,
         };
-        console.log('conditions', conditions);
       }
   
       let skip = pageNum - 1 < 0 ? 0 : (pageNum - 1) * pageSize;
@@ -128,7 +127,9 @@ class CommentsService extends Service {
           type: result.type,
           avatar: result.avatar,
         };
-        let comment = new (this.ctx.model.Comment)({
+        const Comment = this.ctx.model.Comment;
+        // let comment = new (this.ctx.model.Comment)({
+        let comment = new Comment({
           article_id: article_id,
           content: content,
           user_id: user_id,
@@ -150,7 +151,7 @@ class CommentsService extends Service {
             }
           });
         });
-        const result = await this.ctx.model.Article.updateOne({
+        const _result = await this.ctx.model.Article.updateOne({
           _id: article_id
         }, {
           comments: data.comments,
@@ -158,13 +159,14 @@ class CommentsService extends Service {
           is_handle: 0
         }, );
         res["code"] = 0;
-        res["message"] = '操作成功！';
+        res["message"] = '评论成功！';
         res["data"] = commentResult;
       } else {
         res["code"] = 1;
         res["message"] = '用户不存在';
       }
     } catch (error) {
+      console.error('Error:' + error);
       utils.handleError(res, error);
     }
     return res;
@@ -235,7 +237,7 @@ class CommentsService extends Service {
           meta: data.meta
         });
         res["code"] = 0;
-        res["message"] = '操作成功！';
+        res["message"] = '评论成功！';
         res["data"] = Articleresult;
       } else {
         res["code"] = 1;
