@@ -38,7 +38,7 @@
     "egg-session": "^3.1.0",
     "egg-view-ejs": "^2.0.0",
     "mongoose-auto-increment": "^5.0.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.19.0",
     "yargs": "^13.2.4"
   },
